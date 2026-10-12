@@ -79,7 +79,7 @@ if __name__ == "__main__":
     print(sum(in_deg.values()) == sum(out_deg.values()))
     print(sum(in_deg.values()) == len(E))
 
-    print("Task 2:")
+    print("Task 3:")
     graph = {
         "a": ["b", "c"],
         "b": ["a", "d", "e"],
